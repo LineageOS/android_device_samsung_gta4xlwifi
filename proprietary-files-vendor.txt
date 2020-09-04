@@ -24,6 +24,7 @@ vendor/lib/hw/sound_trigger.primary.universal9611.so:vendor/lib/hw/sound_trigger
 vendor/lib/vndk/libtinyalsa.so
 vendor/lib/vndk/libaudioroute.so
 # FIXME END
+vendor/lib/libsamsungDiamondVoice.so
 vendor/lib/libSamsungPostProcessConvertor.so
 vendor/lib/lib_SamsungRec_07001.so
 vendor/lib/lib_SoundAlive_3DPosition_ver202.so
