@@ -19,7 +19,7 @@ vendor/etc/tms_audio_policy_configuration.xml
 vendor/etc/usb_audio_policy_configuration.xml
 vendor/lib/hw/audio.primary.exynos9611.so
 vendor/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so
-vendor/lib/hw/sound_trigger.primary.universal9611.so:vendor/lib/hw/sound_trigger.primary.exynos9611.so
+vendor/lib/hw/sound_trigger.primary.universal9611.so
 # FIXME: Should be built from source
 vendor/lib/vndk/libtinyalsa.so
 vendor/lib/vndk/libaudioroute.so
@@ -264,8 +264,8 @@ vendor/firmware/fimc_is_lib.bin
 vendor/firmware/fimc_is_rta.bin
 
 ### POWER
-vendor/lib/hw/power.universal9611.so:vendor/lib/hw/power.exynos9611.so
-vendor/lib64/hw/power.universal9611.so:vendor/lib64/hw/power.exynos9611.so
+vendor/lib/hw/power.universal9611.so
+vendor/lib64/hw/power.universal9611.so
 
 ### RIL
 vendor/bin/hw/rild
@@ -383,16 +383,16 @@ vendor/firmware/spkamp.bin
 
 ### SENSORS
 vendor/etc/sensors/hals.conf
-vendor/lib/hw/sensors.universal9611.so:vendor/lib/hw/sensors.exynos9611.so
+vendor/lib/hw/sensors.universal9611.so
 vendor/lib/hw/sensors.sensorhub.so
 vendor/lib/sensors.grip.so
-vendor/lib64/hw/sensors.universal9611.so:vendor/lib64/hw/sensors.exynos9611.so
+vendor/lib64/hw/sensors.universal9611.so
 vendor/lib64/hw/sensors.sensorhub.so
 vendor/lib64/sensors.grip.so
 
 ### THERMAL
-vendor/lib/hw/thermal.universal9611.so:vendor/lib/hw/thermal.exynos9611.so
-vendor/lib64/hw/thermal.universal9611.so:vendor/lib64/hw/thermal.exynos9611.so
+vendor/lib/hw/thermal.universal9611.so
+vendor/lib64/hw/thermal.universal9611.so
 
 ### WIDEVINE
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine
