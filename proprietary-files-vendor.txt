@@ -405,6 +405,7 @@ vendor/lib64/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so
 
 # WIFI
 vendor/bin/hw/macloader
+vendor/bin/wlbtd
 vendor/etc/init/wifi_slsi.rc
 vendor/etc/init/wifi.rc
 vendor/etc/wifi/hydra_config.sdb
