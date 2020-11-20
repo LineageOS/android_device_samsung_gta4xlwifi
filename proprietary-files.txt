@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version P610XXU2BTI3, unless pinned
+# Proprietary files - from Samsung package version P610XXU2BTJ5, unless pinned
 
 ### GPS
 system/etc/init/init.gpscommon.rc

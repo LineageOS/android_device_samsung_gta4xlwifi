@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version P610XXU2BTI3, unless pinned
+# Proprietary files - from Samsung package version P610XXU2BTJ5, unless pinned
 
 ### AUDIO
 vendor/etc/floating_feature.xml
@@ -17,8 +17,8 @@ vendor/firmware/calliope_sram.bin
 
 # CAMERA_DEPENDENCIES
 # libexynoscamera3 - from Samsung package version P610XXU2ATHF
-vendor/lib/libexynoscamera3.so|f27b350bee8f41292bba03f2e3c8eac877c1371f
-vendor/lib64/libexynoscamera3.so|1e21c97e325398fbc6385122772f93bee2ae3c86
+vendor/lib/libexynoscamera3.so|1e21c97e325398fbc6385122772f93bee2ae3c86
+vendor/lib64/libexynoscamera3.so|f27b350bee8f41292bba03f2e3c8eac877c1371f
 
 ### GPS/GNSS
 vendor/bin/hw/gpsd
