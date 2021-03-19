@@ -1,8 +1,40 @@
-# Proprietary files - from Samsung package version P610XXU2BTK2, unless pinned
+# Proprietary files - from Samsung package version P610XXU2CUBB, unless pinned
 
-### GPS
-system/etc/init/init.gpscommon.rc
+### AUDIO
+vendor/etc/floating_feature.xml
+vendor/etc/mixer_gains.xml
+vendor/lib/hw/audio.primary.exynos9611.so
+
+### AUDIO_FIRMWARE
+vendor/firmware/calliope_dram.bin
+vendor/firmware/calliope_sram.bin
+
+### BLUETOOTH_FIRMWARE
+vendor/etc/wifi/mx140_bt.hcf
+
+# CAMERA_DEPENDENCIES
+vendor/lib/libexynoscamera3.so
+vendor/lib64/libexynoscamera3.so
+
+### GPS/GNSS
+vendor/bin/hw/gpsd
+vendor/etc/gnss/gps.cer
+vendor/etc/gnss/gps.xml
+vendor/etc/init/init.gps.rc
+vendor/lib64/hw/gps.default.so
+vendor/lib64/hw/android.hardware.gnss@2.0-impl.so
+vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
+vendor/lib64/libwrappergps.so
 
 ### RIL
-system/lib/libfactoryutil.so
-system/lib64/libfactoryutil.so
+vendor/etc/init/init.baseband.rc
+vendor/etc/init/init.vendor.rilcommon.rc
+
+# TEEGRIS_FIRMWARE
+vendor/tee/00000000-0000-0000-0000-00000000dead
+vendor/tee/00000000-0000-0000-0000-000000534b4d
+vendor/tee/00000000-0000-0000-0000-0053545354ab
+vendor/tee/00000000-0000-0000-0000-42494f535542
+vendor/tee/00000000-0000-0000-0000-4b45594d5354
+vendor/tee/00000000-0000-0000-0000-505256544545
+vendor/tee/00000000-0000-0000-0000-5345435f4652
