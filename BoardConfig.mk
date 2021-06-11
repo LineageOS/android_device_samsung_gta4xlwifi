@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2020-2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,7 +13,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include device/samsung/gta4xl-common/BoardConfigPlatform.mk
+## Inherit from the common tree
+include device/samsung/gta4xl-common/BoardConfigCommon.mk
+
+## Inherit from the proprietary configuration
 include vendor/samsung/gta4xlwifi/BoardConfigVendor.mk
 
 DEVICE_PATH := device/samsung/gta4xlwifi
@@ -21,17 +24,8 @@ DEVICE_PATH := device/samsung/gta4xlwifi
 # APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
-PRODUCT_PLATFORM := exynos9611
-
-TARGET_OTA_ASSERT_DEVICE := gta4xlwifi,gta4xlwifixx
-
-TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/hardware/include
-
-### KERNEL
+## Kernel
 TARGET_KERNEL_CONFIG := exynos9611-gta4xlwifi_defconfig
 
-### SYSTEM PROPS
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
-
-### VENDOR PROPS
+## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
