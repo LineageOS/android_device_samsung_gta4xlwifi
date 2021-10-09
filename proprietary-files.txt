@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version P610XXS2CUG5, unless pinned
+# Proprietary files - from Samsung package version P610XXU2DUJ1, unless pinned
 
 ## Audio
 vendor/etc/floating_feature.xml
@@ -18,6 +18,7 @@ vendor/lib/libexynoscamera3.so
 vendor/lib64/libexynoscamera3.so
 
 ## GPS
+vendor/bin/hw/gps.sh
 vendor/bin/hw/gpsd
 vendor/etc/gnss/gps.cer
 vendor/etc/gnss/gps.xml
