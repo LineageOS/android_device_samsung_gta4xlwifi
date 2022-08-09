@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9742bd6d_43a374a1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29173
+      },
+      "writtenOn": "2022-08-09T20:27:23Z",
+      "side": 1,
+      "message": "Think this is a nice to have change. I\u0027d understand if it isn\u0027t wanted, though.",
+      "revId": "2f04cc8735605d47b3341da9c8b03d4561871f26",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
