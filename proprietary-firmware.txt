@@ -1,0 +1,12 @@
+# Firmware for model SM-P610 - from Samsung package version P610XXS3FWD2
+
+cm.bin_SM-P610
+keystorage.bin_SM-P610
+sboot.bin_SM-P610
+uh.bin_SM-P610
+up_param.bin_SM-P610
+
+# File containing the supported models, one per line
+models
+# Files containing Samsung package version for supported models
+version_SM-P610
