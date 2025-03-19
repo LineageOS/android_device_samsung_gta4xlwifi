@@ -1,7 +1,7 @@
 # Proprietary files - from Samsung package version P610XXS5FXE4, unless pinned
 
 ## Audio - Dolby Atmos
--vendor/lib/soundfx/libswdap.so
+vendor/lib/soundfx/libswdap.so
 
 ## Audio Firmware
 vendor/firmware/calliope_dram.bin
@@ -11,19 +11,19 @@ vendor/firmware/calliope_sram.bin
 vendor/etc/wifi/mx140_bt.hcf
 
 ## Camera dependencies
--vendor/lib/libexynoscamera3.so
--vendor/lib64/libexynoscamera3.so
+vendor/lib/libexynoscamera3.so
+vendor/lib64/libexynoscamera3.so
 
 ## GPS
 vendor/bin/hw/gps.sh
--vendor/bin/hw/gpsd
+vendor/bin/hw/gpsd
 vendor/etc/gnss/gps.cer
 vendor/etc/gnss/gps.xml
 vendor/etc/init/init.gps.rc
--vendor/lib64/hw/gps.default.so
--vendor/lib64/hw/android.hardware.gnss@2.0-impl.so
--vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
--vendor/lib64/libwrappergps.so
+vendor/lib64/hw/gps.default.so;FIX_SONAME
+vendor/lib64/hw/android.hardware.gnss@2.0-impl.so;FIX_SONAME
+vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
+vendor/lib64/libwrappergps.so
 
 ## RIL
 vendor/etc/init/init.baseband.rc

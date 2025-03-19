@@ -1,12 +1,12 @@
 # Firmware for model SM-P610 - from Samsung package version P610XXS5FXE4
 
-cm.bin_SM-P610
-keystorage.bin_SM-P610
-sboot.bin_SM-P610
-uh.bin_SM-P610
-up_param.bin_SM-P610
+cm.bin_SM-P610|7df927ba1e454a94692310e41bdefc166b55906f
+keystorage.bin_SM-P610|b60ce082f655277c54d8deadd6849ebcb035bdc9
+sboot.bin_SM-P610|5e1a94c0bf3172e84ecbe2328afec48f37787cf6
+uh.bin_SM-P610|7cb5f2a8142421bd596b2da734c0ba54d2294ceb
+up_param.bin_SM-P610|48eb7cdb957cff1536db0046a16f10c185df55b0
 
 # File containing the supported models, one per line
-models
+models|0a5c3b2cef8f0c09b09f80363601f16491824a89
 # Files containing Samsung package version for supported models
-version_SM-P610
+version_SM-P610|6f9ab9aa5b0a3e9ab460eb063c16bfc7d4dbc6c2
